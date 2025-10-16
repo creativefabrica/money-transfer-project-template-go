@@ -12,7 +12,9 @@ import (
 // @@@SNIPSTART money-transfer-project-template-go-worker
 func main() {
 
-	c, err := client.Dial(client.Options{})
+	c, err := client.Dial(client.Options{
+		HostPort: "temporal.platform.cf.internal:80",
+	})
 	if err != nil {
 		log.Fatalln("Unable to create Temporal client.", err)
 	}
