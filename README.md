@@ -14,6 +14,7 @@ Go to https://temporal.platform.creativefabrica.com/.
 It uses Cloudflare Zero Trust to control access. Please login with your Google credentials.
 
 ### Step 1: Clone this Repository
+**From this step onwards, please connect to CF Shared VPN**
 
 In another terminal instance, clone this repo and run this application.
 
