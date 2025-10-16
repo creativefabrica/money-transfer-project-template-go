@@ -4,17 +4,14 @@ This is a simple project for demonstrating Temporal with the Go SDK.
 
 The full 10-minute tutorial is here: https://learn.temporal.io/getting_started/go/first_program_in_go/
 
+**Please note: The repo here is a private fork made by CF SRE team. The repo content is also adapted to CF infrastructure. The tutorial above may not run as is.**
+
 ## Basic instructions
 
-### Step 0: Temporal Server
+### Step 0: Login to Temporal Server
 
-Make sure [Temporal Server is running](https://docs.temporal.io/docs/server/quick-install/) first:
-
-```bash
-git clone https://github.com/temporalio/docker-compose.git
-cd  docker-compose
-docker-compose up
-```
+Go to https://temporal.platform.creativefabrica.com/.
+It uses Cloudflare Zero Trust to control access. Please login with your Google credentials.
 
 ### Step 1: Clone this Repository
 
